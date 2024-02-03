@@ -5,7 +5,7 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Cookie Clicker Clone",
+  title: "Cookie's Cookie Clicker",
   description: "Iconic Cookie Clicker Game",
 };
 

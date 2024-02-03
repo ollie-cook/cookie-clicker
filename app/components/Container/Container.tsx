@@ -16,7 +16,7 @@ export default function Container() {
 
   const updateCount = () => {
     setCount(prev => prev+1)
-    Cookies.set('cookie-count', count.toString())
+    Cookies.set('cookie-count', count.toString(), {expires: 365})
   }
 
   return (
