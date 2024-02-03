@@ -6,7 +6,7 @@ interface ContainerProps {
 
 export default function Container(props: ContainerProps) {
   return (
-    <div className="flex flex-col justify-end items-center w-1/4">
+    <div className="flex flex-col justify-start items-center w-1/4">
       <div className="flex items-center h-[5svh]">
         <p className="text-center text-white font-bold">1,000,000</p>
       </div>
